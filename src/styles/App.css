@@ -7,7 +7,7 @@
 
 body {
   font-family: "Noto Sans Bengali", sans-serif;
-  color: #FAFAFA;
+  color: #FFFFFF;
   background-color: #271D35;
   font-size: 20px;
   background: url("/img/bg.jpg");
@@ -25,3 +25,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.mdl-layout__drawer {
+  background: #271D35;
+  border-right: none; }
+  .mdl-layout__drawer .mdl-navigation {
+    padding-top: 0; }
+    .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+      color: #FFFFFF;
+      text-align: center;
+      border-bottom: 3px solid #FFFFFF;
+      transition: all ease-in-out 0.3s;
+      font-weight: 500;
+      font-size: 1.1rem; }
+      .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+        background: #E2199D; }
+  .mdl-layout__drawer::-webkit-scrollbar-track {
+    background-color: #FFFFFF; }
+  .mdl-layout__drawer::-webkit-scrollbar {
+    width: 4px; }
+  .mdl-layout__drawer::-webkit-scrollbar-thumb {
+    background-color: #f9465c; }

@@ -1,0 +1,27 @@
+.mdl-layout__drawer {
+  background: $primary_bg_color;
+  border-right: none;
+  .mdl-navigation {
+    padding-top: 0;
+    .mdl-navigation__link {
+      color: $primary_color;
+      text-align: center;
+      border-bottom: 3px solid $primary_color;
+      transition: all ease-in-out 0.3s;
+      font-weight: 500;
+      font-size: 1.1rem;
+      &:hover {
+        background: $primary_action_color;
+      }
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $primary_color;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #f9465c;
+  }
+}
