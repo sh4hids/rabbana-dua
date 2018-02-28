@@ -5,10 +5,15 @@
 }
 
 body {
-  font-family: $primary_font;
+  font-family: $primary_bengali_font;
   color: $primary_color;
   background-color: $primary_bg_color;
   font-size: 20px;
+  background: url('/img/bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 * a {

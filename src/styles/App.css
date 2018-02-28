@@ -1,17 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Lateef");
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengali.css);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
-  color: #363F45;
-  background-color: #fafafa;
-  font-size: 20px; }
+  font-family: "Noto Sans Bengali", sans-serif;
+  color: #FAFAFA;
+  background-color: #271D35;
+  font-size: 20px;
+  background: url("/img/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 * a {
-  color: #1976d2;
+  color: #E2199D;
   text-decoration: none; }
 
 .flex-container {
@@ -19,13 +25,3 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-
-header {
-  min-height: 150px;
-  background: #363F45;
-  color: #fafafa;
-  text-align: center; }
-
-.test-body {
-  padding-top: 20px;
-  text-align: center; }
