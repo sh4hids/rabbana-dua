@@ -46,3 +46,6 @@ body {
     width: 4px; }
   .mdl-layout__drawer::-webkit-scrollbar-thumb {
     background-color: #f9465c; }
+
+.section {
+  text-align: center; }

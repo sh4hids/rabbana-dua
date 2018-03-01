@@ -15,7 +15,7 @@ const MainNav = (props) => {
 
   return (
     <div className="mdl-layout__drawer">
-      <nav className="mdl-navigation">
+      <nav className="mdl-navigation" id="menu">
         {links}
       </nav>
     </div>
