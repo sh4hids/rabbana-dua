@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MainContainer = (props) => (<main className="mdl-layout__content">
-  <div className="page-content" id="fullpage">
+  <div id="fullpage">
     <div className="section" id="dua1">
       <h1>fullPage.js</h1>
       <p>Javascript only version</p>
