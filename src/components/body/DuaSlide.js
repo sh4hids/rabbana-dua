@@ -9,7 +9,7 @@ const DuaSlide = (props) => {
       return (<div className="section" key={dua.id}>
         <p className="arabic">{dua.ar}</p>
         <p className="bangla">{dua.bn}</p>
-        <p className="dua-ref">[{dua.qref}]</p>
+        <p className="dua-ref">[ {dua.qref} ]</p>
       </div>);
     });
   }
@@ -18,4 +18,5 @@ const DuaSlide = (props) => {
     {slides}
   </div>);
 };
+
 export default DuaSlide;
