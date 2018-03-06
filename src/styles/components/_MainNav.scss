@@ -1,6 +1,7 @@
 .mdl-layout__drawer {
   background: $primary_bg_color;
   border-right: none;
+  position: fixed;
   .mdl-navigation {
     padding-top: 0;
     .mdl-navigation__link {

@@ -6,9 +6,11 @@ const MainNav = (props) => {
   let links;
 
   if(duas){
+    let x = 0;
     links = duas.map(dua => {
+      x++;
      return (
-       <a className="mdl-navigation__link" href={dua.id} key={dua.id}>{dua.qref}</a>
+       <a className="mdl-navigation__link" href={'#dua' + x} key={dua.id}>{dua.qref}</a>
      );
    });
   }

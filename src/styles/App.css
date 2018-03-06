@@ -26,9 +26,13 @@ body {
   justify-content: center;
   align-items: center; }
 
+.mdl-layout__container {
+  height: auto; }
+
 .mdl-layout__drawer {
   background: #271D35;
-  border-right: none; }
+  border-right: none;
+  position: fixed; }
   .mdl-layout__drawer .mdl-navigation {
     padding-top: 0; }
     .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {

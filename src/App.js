@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
         <MainNav data={data}/>
-        <MainContainer/>
+        <MainContainer data={data}/>
       </div>
   );
   }
