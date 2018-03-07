@@ -1,4 +1,5 @@
 import React from 'react';
+import AudioPlayer from '../audioplayer/AudioPlayer';
 
 const DuaSlide = (props) => {
   let duas = props.duas;
@@ -10,6 +11,7 @@ const DuaSlide = (props) => {
         <p className="arabic">{dua.ar}</p>
         <p className="bangla">{dua.bn}</p>
         <p className="dua-ref">[ {dua.qref} ]</p>
+        <AudioPlayer />
       </div>);
     });
   }

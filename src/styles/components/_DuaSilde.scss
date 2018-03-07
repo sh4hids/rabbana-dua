@@ -27,7 +27,7 @@
       padding: 0;
     }
   }
-  @media all and (min-width: 481px) and (orientation: landscape) {
+  @media all and (min-width: 481px) and (max-width: 667px) and (orientation: landscape) {
     padding: 0 32px;
     .arabic {
       font-size: 1.8rem;
@@ -39,4 +39,5 @@
       padding: 0;
     }
   }
+  @import "styles/components/_AudioPlayer.scss";
 }

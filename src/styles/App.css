@@ -75,7 +75,7 @@ body {
         font-size: 1.2rem;
         line-height: 2rem;
         padding: 0; } }
-  @media all and (min-width: 481px) and (orientation: landscape) {
+  @media all and (min-width: 481px) and (max-width: 667px) and (orientation: landscape) {
     .section {
       padding: 0 32px; }
       .section .arabic {
