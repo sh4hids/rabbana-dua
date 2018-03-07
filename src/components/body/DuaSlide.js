@@ -11,7 +11,7 @@ const DuaSlide = (props) => {
         <p className="arabic">{dua.ar}</p>
         <p className="bangla">{dua.bn}</p>
         <p className="dua-ref">[ {dua.qref} ]</p>
-        <AudioPlayer />
+        <AudioPlayer dua={dua}/>
       </div>);
     });
   }
