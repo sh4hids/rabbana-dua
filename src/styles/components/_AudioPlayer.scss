@@ -23,4 +23,8 @@
       top: -4px;
     }
   }
+  &::-moz-focus-inner {
+    outline: none;
+    border: 0;
+  }
 }

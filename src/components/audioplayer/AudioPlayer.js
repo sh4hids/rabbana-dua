@@ -25,8 +25,9 @@ const AudioPlayer = (props) => {
   }
 
   return (<div>
-    <audio id={props.dua.id}>
+    <audio id={props.dua.id} preload="none">
       <source src={props.dua.mp3} type="audio/mpeg"/>
+      <source src={props.dua.ogg} type="audio/ogg"/>
       Your browser does not support the audio element.
     </audio>
     <button onClick={audioControl.bind(this, props.dua.id)} className="audio-player"><i className="material-icons" id={props.dua.id + '_ctrl'}>play_arrow</i> <span>উচ্চারণ</span></button>

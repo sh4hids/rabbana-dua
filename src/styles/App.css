@@ -127,3 +127,6 @@ body {
         .section .audio-player span {
           font-size: 1rem;
           top: -4px; } }
+    .section .audio-player::-moz-focus-inner {
+      outline: none;
+      border: 0; }
