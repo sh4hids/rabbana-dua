@@ -12,4 +12,15 @@
     font-size: 1.2rem;
     font-family: $primary_bengali_font;
   }
+  @media all and (min-width: 0) and (max-width: 480px) {
+    margin-top: 8px;
+    padding: 8px 10px 0 4px;
+    .material-icons {
+      font-size: 1.2rem;
+    }
+    span {
+      font-size: 1rem;
+      top: -4px;
+    }
+  }
 }

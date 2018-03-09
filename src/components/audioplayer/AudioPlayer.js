@@ -7,7 +7,7 @@ const AudioPlayer = (props) => {
     let player = document.getElementById(playerId),
     ctrl = document.getElementById(playerId+'_ctrl');
 
-    if (ctrl.className == 'material-icons is_paused') {
+    if (ctrl.className === 'material-icons is_paused') {
       ctrl.className = 'material-icons';
       ctrl.innerText = 'play_arrow';
       player.pause();
