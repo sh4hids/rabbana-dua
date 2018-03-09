@@ -29,6 +29,15 @@ body {
 .mdl-layout__container {
   height: auto; }
 
+.github-corner {
+  z-index: 10000001;
+  position: fixed;
+  top: 0;
+  right: 0; }
+  @media all and (min-width: 0) and (max-width: 480px) {
+    .github-corner {
+      display: none; } }
+
 .mdl-layout__drawer {
   background: #271D35;
   border-right: none;
