@@ -29,6 +29,7 @@
   }
 
   @media all and (min-width: 0) and (max-width: 480px) {
+    background-color: $primary_bg_color;
     .arabic {
       margin-bottom: 8px;
       line-height: 1.3;
