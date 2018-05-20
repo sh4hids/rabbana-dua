@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shahids.me/rabbana-dua",
+  "homepage": "http://apps.shahid.pro/rabbana-dua",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
