@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://apps.shahid.pro/rabbana-dua/sitemap.xml
